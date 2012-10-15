@@ -20,10 +20,6 @@ li.collapsibleListOpen{
 	cursor:pointer;
 }
 
-li.collapsibleListOpen ul{
-	display: block;
-}
-
 li.collapsibleListClosed{
 	list-style-image:url('img/button-closed.png');
 	cursor:pointer;
@@ -38,9 +34,7 @@ li.collapsibleListClosed ul{
 }
 
 .treeView{
-	-moz-user-select:none;
-	position:relative;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
 
 .treeView ul{
