@@ -14,10 +14,10 @@
 	$.fn.collapsibleList = function() {
 		this.find("li").each(function(i, li) {
 			var $this = $(li);
-			if($this.find("ul").length > 0) {
+			if($this.children("ul").length > 0) {
 				$this.addClass("collapsibleListClosed")
 			}
-			$this.find("ul")
+			$this.children("ul")
 				.addClass("collapsibleList");
 			
 			$this.on('mousedown', function(e){
