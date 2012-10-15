@@ -5,7 +5,7 @@
  * Based on the Collapsible library by Stephen Morley
  * http://code.stephenmorley.org/javascript/collapsible-lists/
  *
- * Released under the Beerware license
+ * Released under the MIT License
  *
  * Date: Mon Oct 15 2012
  */
