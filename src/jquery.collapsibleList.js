@@ -1,5 +1,5 @@
 /*!
- * jQuery Collapsible Plugin v0.1
+ * jQuery Collapsible List Plugin v0.2
  * http://github.com/sergiocampama/
  *
  * Based on the Collapsible library by Stephen Morley
@@ -18,7 +18,10 @@
 				$this.addClass("collapsibleListClosed")
 			}
 			$this.children("ul")
-				.addClass("collapsibleList");
+				.addClass("collapsibleList")
+				.children("li")
+				.last()
+				.addClass("lastChild");
 			
 			$this.on('mousedown', function(e){
 				//Prevents selection of text on subsequent clicks
