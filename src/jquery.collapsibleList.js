@@ -27,12 +27,11 @@
 				//Prevents selection of text on subsequent clicks
 				e.preventDefault();
 			})
-			.click(function(e){
+			.dblclick(function(e){
 				//Prevents clicks from activating parent lis
 				e.stopPropagation();
 				if($(this).children("ul").length > 0) {
-					$(this).toggleClass("collapsibleListClosed")
-						.toggleClass("collapsibleListOpen");
+					$(this).toggleClass("collapsibleListClosed collapsibleListOpen");
 				}
 			});
 		});
