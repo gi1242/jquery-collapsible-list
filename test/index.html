@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>jQuery Collapsible Test</title>
+	<link rel="stylesheet" type="text/css" href="../src/jquery.collapsibleList.css">
+</head>
+<body>
+	<ul class="collapsibleList">
+		<li>Parent Item
+			<ul>
+				<li>Child item</li>
+				<li>Child item</li>
+			</ul>
+		</li>
+		<li>Parent Item
+			<ul>
+				<li>Child Item
+					<ul>
+						<li>SubChild Item
+							<ul>
+								<li>SubSubChild</li>
+								<li>SubSubChild
+									<ul>
+										<li>SubSubSubChild</li>
+										<li>SubSubSubChild</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>SubChild Item</li>
+					</ul>
+				</li>
+				<li>Child Item</li>
+			</ul>
+		</li>
+	</ul>
+	<script src="http://cdn.localhost/jquery-1.8.2.min.js"></script>
+	<script src="../src/jquery.collapsibleList.js"></script>
+	<script type="">
+		$(".collapsibleList").collapsibleList();
+	</script>
+</body>
+</html>

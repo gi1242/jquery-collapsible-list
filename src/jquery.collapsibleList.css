@@ -1,0 +1,39 @@
+/*!
+ * jQuery Collapsible Plugin v0.1
+ * http://github.com/sergiocampama/
+ *
+ * Based on the Collapsible library by Stephen Morley
+ * http://code.stephenmorley.org/javascript/collapsible-lists/
+ *
+ * Released under the Beerware license
+ *
+ * Date: Mon Oct 15 2012
+ */
+
+
+.collapsibleList li{
+	list-style-image:url('img/button.png');
+	cursor:auto;
+}
+
+li.collapsibleListOpen{
+	list-style-image:url('img/button-open.png');
+	cursor:pointer;
+}
+
+li.collapsibleListOpen ul{
+	display: block;
+}
+
+li.collapsibleListClosed{
+	list-style-image:url('img/button-closed.png');
+	cursor:pointer;
+}
+
+li.collapsibleListClosed ul{
+	display:none;
+}
+
+.collapsibleList ul {
+	padding-left: 20px;
+}
